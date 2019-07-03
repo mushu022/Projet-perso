@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+header {
+    background-image: url('../image/massageRock.jpg');
+    min-height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 0.938em;
+    animation-duration: 2s;
+    animation-name: bounceIn;
+}
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+h1 {
+    color: rgb(218, 111, 40);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: inherit;
+}
+
+nav {
+    outline: none !important;
+    display: flex;
+    justify-content: space-around;
+    text-decoration-style: solid;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4f4f4f;
+    
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+nav>div {
+    display: inline;
+}
+
+.container {
+    
+}
+
+.container {
+    margin: 0 auto;
+}
+
+body {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.45;
+    padding: 0;
+}
+
+.test {
+
+}
+
+article {
+    text-align: left;
+    border: 2px solid black;
+    list-style-type: none;
+}
+
+aside {
+    border: 2px solid black;
+    list-style-type: none;    
+    background-color: rgb(233, 110, 29);
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    justify-content: baseline;
+}
+
+.instaimg {
+    height: 60px;
+    width: 60px;
+}
+
+footer {
+    /* Si position fixed -> pas responsive, si position pas fixed -> pas collé au bas de page */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+
+    /* padding: 2em 4em 2em 4em; */
+}
