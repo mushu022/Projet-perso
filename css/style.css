@@ -34,7 +34,7 @@ header {
     }
   }
 h1 {
-    color: rgb(218, 111, 40);
+    color: rgb(235, 113, 32);
     text-align: center;
 }
 
@@ -55,7 +55,6 @@ nav {
     margin: 0;
     padding: 0;
     color: #4f4f4f;
-    
 }
 
 a {
@@ -66,9 +65,22 @@ a {
 nav>div {
     display: inline;
 }
+.makeup {
+    height: 250px;
+    width: 200px;
+}
 
-.container {
-    
+.makeupall {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nail{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .container {
@@ -107,7 +119,10 @@ aside {
     height: 60px;
     width: 60px;
 }
-
+.fblogo {
+    height: 80px;
+    width: 80px;
+}
 footer {
     /* Si position fixed -> pas responsive, si position pas fixed -> pas collé au bas de page */
     position: fixed;
