@@ -65,15 +65,30 @@ a {
 nav>div {
     display: inline;
 }
+
+/*
 .makeup {
     height: 250px;
     width: 200px;
 }
 
+/*
 .makeupall {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+*/
+/*
+.makeupall {
+    display: block;
+    max-width: 150px;
+}
+*/
+
+.makeup {
+    height: 150px;
+    width: 150px;
 }
 .nail{
     height: 300px;
@@ -125,11 +140,21 @@ aside {
 }
 footer {
     /* Si position fixed -> pas responsive, si position pas fixed -> pas collé au bas de page */
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     margin: auto;
     width: 100%;
+    background-color: rgb(233, 110, 29);
 
     /* padding: 2em 4em 2em 4em; */
+}
+
+.actu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.actuInsta {
+    max-width: 25vw; 
 }
