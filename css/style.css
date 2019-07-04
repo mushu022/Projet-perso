@@ -78,6 +78,7 @@ nav>div {
     justify-content: space-around;
     height: 40vh;
     width: 40vh;
+    
 }
 
 .makeupall {
@@ -90,6 +91,7 @@ nav>div {
 .makeup {
     height: 40vh;
     width: 40vh;
+    border: solid 1px rgb(235, 122, 16);
 }
 .nail{
     height: 300px;
@@ -113,7 +115,6 @@ body {
 
 article {
     text-align: left;
-    border: 2px solid black;
     list-style-type: none;
 }
 
@@ -156,6 +157,15 @@ footer {
     max-width: 25vw; 
 }
 .massage {
-    height: 40vh;
+    height: 30vh;
     width: 40vh;
+}
+.accueilimg {
+    height: 50vh;
+    width: 40vh;
+}
+
+.accueilcils {
+    height: 40vh;
+    width: 60vh;
 }
