@@ -66,29 +66,30 @@ nav>div {
     display: inline;
 }
 
-/*
+
 .makeup {
     height: 250px;
     width: 200px;
 }
 
-/*
 .makeupall {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 40vh;
+    width: 40vh;
 }
-*/
-/*
+
 .makeupall {
     display: block;
     max-width: 150px;
+    height: 40vh;
+    width: 40vh;
 }
-*/
 
 .makeup {
-    height: 150px;
-    width: 150px;
+    height: 40vh;
+    width: 40vh;
 }
 .nail{
     height: 300px;
@@ -108,10 +109,6 @@ body {
     font-weight: 400;
     line-height: 1.45;
     padding: 0;
-}
-
-.test {
-
 }
 
 article {
@@ -157,4 +154,8 @@ footer {
 
 .actuInsta {
     max-width: 25vw; 
+}
+.massage {
+    height: 40vh;
+    width: 40vh;
 }
